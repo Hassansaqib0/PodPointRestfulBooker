@@ -114,14 +114,19 @@ Troubleshooting :
 1) If the below requests do not work or give out 404 error then please before triggering these requests frist trigger the 'create booking' request as that will get the booking id and pass to the other requests where needed
 
 Get booking 
+
 Update booking
+
 Partical update 
+
 Delete booking
 
 2) For the below requests in the header section a token is auotmatically updated incase if the requests gives error please trigger the 'create auth token' requet which update the variable in for these requests, alternatively we can also use authorization header by clicking on the check box in the header setion and unchecking the cookie header
 
 Update booking
+
 Partical update 
+
 Delete booking
  
 
