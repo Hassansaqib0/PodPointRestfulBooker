@@ -53,7 +53,7 @@ in the https://github.com/Hassansaqib0/PodPointRestfulBooker page
 
 open Restful-booker.json file then copy the all of the json 
 
-open note pad pr notepad ++ 
+open note pad
 
 copy the json inside that and save it with the name extenion Restful-booker.json on your desktop 
 
@@ -83,6 +83,21 @@ Now please follow the below steps to import and setup the postman collection con
 
 
 Once you have successfully imported the collection then please follow the below steps on how to use and trigger the Restful booker collection requests and please follow the below **sequence** for triggering requests
+
+
+1) As we have imported the postman collection then we might have losed the values for the variables which i have created in colletion settings 
+
+2) Once you have imported the file successfully please go to Restful-booker collection settings then Pre-request script tab
+
+3) in the Pre request script please copy the script present there then remove it and save the collection 
+
+4) go to the 'create auth token requet' and then trigger the request successfully 
+
+5) Go back to Restful-Booker collection settings and put back the script and save it 
+
+this should bring back values for the variable and the pre scripts should work as expected
+
+
 1)	In the postman application once you click on the Restful-booker file then it will open the drop down with all the requests already configured  as shown in the screenshot 
 
 ![33](https://user-images.githubusercontent.com/111247381/184609220-8ce620a7-b779-4ea8-b629-72fc008f87f0.png)
