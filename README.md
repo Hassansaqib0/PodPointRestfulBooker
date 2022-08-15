@@ -112,6 +112,10 @@ Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ a
 5)	Create Booking – the purpose of this Post request is to create new bookings.
 as the request body has already been configured once this request is send then in response we get the new booking id with the rest of the body with status code 200  
 
+<img width="1547" alt="Screenshot 2022-08-15 at 3 43 30 pm" src="https://user-images.githubusercontent.com/111247381/184657294-a5c9e3a2-cb57-4a96-892b-1883cd4fbc03.png">
+
+
+
 6)	Get booking request – the purpose of this request is to return any booking information
 we can use any booking id in the parameter 'id' from the request get booking id but because of the changes i have done the booking id will be automatically be updated which was created in the above step so clicking on the send button it will return the booking which we have already created with status code 200 
 
