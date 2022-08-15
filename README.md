@@ -1,4 +1,4 @@
-Introduction
+**Introduction**
 
 This API is all about Booking  and the purpose of this collection is to trigger requests which will:
 
@@ -15,7 +15,7 @@ This API is all about Booking  and the purpose of this collection is to trigger 
 6)Delete booking   
 
 
-Note:
+**Note**:
  For the Restful-Booker collection in the collection settings in the tabs  ‘Pre-request script’ and ‘variable’ tab I have made some changes as below : 
 1) In the Pre-request script I have written a Java script which will get the token from the response of the request ‘Create Auth token’  and pass it to the variable created in ‘Variables’ tab ‘NewToken’ and ‘req’, by this in the applicable requests like (Update, Partial and Delete) you will not need to update token because it will be updated automatically.
 2) In the Variables tab I have also created a variable ‘BookingUrl’ which will replace the Url in all requests. 
@@ -23,7 +23,7 @@ Note:
 
 
 
-Setup 
+**Setup**
 
 Please follow the below steps to import and setup the postman collection configured for Restful booker : 
 1)	On your system please open postman application
