@@ -37,46 +37,24 @@ This API is all about Booking  and the purpose of this collection is to trigger 
 **Setup**
 
 Pre-requisite : 
+In the  https://github.com/Hassansaqib0/PodPointRestfulBooker page 
+open the file Resful-Booker.json 
+copy all of the json 
 
-Please make sure to download all the files by following the below steps : 
-
-1) in the https://github.com/Hassansaqib0/PodPointRestfulBooker page 
-click on code then click on download zip, this will download all the files in this repository
-Once downwloaded you would need to extract the file uing winzip or any other application then
-drag this folder to desktop so we can import the Restful-booker.json collection later in the steps
-
-![donwload zip](https://user-images.githubusercontent.com/111247381/184623010-eae96349-f553-448f-91ce-b4c3a89d5e04.png)
-
-if you are not able to extract the folder then please try below steps : 
-
-in the https://github.com/Hassansaqib0/PodPointRestfulBooker page 
-
-open Restful-booker.json file then copy the all of the json 
-
-Open postman application and click on import 
-chose the option raw text and copy the json in there and click on continue 
-After clicking contine click on import then postman collectionn would be successfully imported
-
-
-
-
-
-
-
-Now please follow the below steps to import and setup the postman collection configured for Restful booker : 
+then Please follow the below steps to import and setup the postman collection configured for Restful booker : 
 1)	On your system please open postman application
 2)	Once the Postman application is opened look for import button which should be at the top left  corner of the app
 ![1111](https://user-images.githubusercontent.com/111247381/184608371-5b9fd32a-b768-4347-81da-7516f833e6d3.png)
 
 
 3)	Once you locate the ‘Import’ button then please click on it
-4)	After clicking on the ‘Import’ button a pop up will be displayed where at the top please choose the option ‘File’ 
-5)	After choosing the ‘File’ option please click on the ‘upload files’ button
-6)	 A file explorer window will open then from left hand side of the window please click on the option ‘desktop’ , after clicking on the desktop then on the right hand side of the window please click on the file ‘Restful-booker.json; and then click on ‘Open’
-![22](https://user-images.githubusercontent.com/111247381/184608636-5ff2ab3f-707b-4692-9db5-cfeffece3042.png)
+4)	After clicking on the ‘Import’ button a pop up will be displayed where at the top please choose the option ‘Raw text’ 
+5)	After choosing the ‘raw text’ option please click copy all of the json in it and click continue
+
+![asdasdasd](https://user-images.githubusercontent.com/111247381/184632043-36734f90-c872-40c5-930d-28ae3e8495ea.png)
 
 
-8)	Once you click ‘Open’ then in the Postman application you will see the file you have selected and on the bottom of the pop up you will see the option ‘Import’, please click the ‘import’ button
+6)	Once you click ‘continue’ then in the Postman application you will see the file you have selected and on the bottom of the pop up you will see the option ‘Import’, please click the ‘import’ button
 9)	Once you click on the ‘import’ button then you will see a message on the postman application stating ‘Postman collection import has been successful’
 10)	In the postman application on the left hand side you would now see the imported file ‘Restful-booker’ file, incase if you don’t see the file then please click on the options ‘Collections’ which is on the top left hand side of the application .
 
