@@ -56,7 +56,7 @@ Once you have successfully imported the collection then please follow the below 
 3)	Create Auth token – The purpose of  this Post request is to return a token then to be used in other requests
 Click on the ‘Send’ button for the Post request ‘Create auth token’ and in the response you will get the token with status code 200 
 
-4)	Getting booking id’s – The purpose of this is  GET request is to bring returns all the booking ids which already have been created. 
+4)	Getting booking id’s – The purpose of this GET request is to to bring returns all the booking ids which already have been created. 
 Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ and in the response this will return all the book id’s which already has been created, here we can go to parameters tab and also select different parameters which will bring different such results based on the parameters  e.g. 
 
 {{BookingUrl}}/booking?firstname=Sally
@@ -67,28 +67,34 @@ Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ a
 
 {{BookingUrl}}/booking?checkout=2014-10-23
 
-5)	Create Booking – the purpose of this is a Post request which can create new bookings.
+
+
+5)	Create Booking – the purpose of this Post request is to create new bookings.
 as the request body has already been configured once this request is send then in response we get the new booking id with status code 200  
 
-6)	Get booking request – the purpose of This request returns any booking information so by clicking on the send button 
-we can use the above booking id , which will return  the booking which we already created with status code 200 
+6)	Get booking request – the purpose of this request is to return any booking information so by clicking on the send button 
+we can use the above booking id in the parametere 'id' , which will return  the booking which we have already created with status code 200 
 
-7)	Update booking request – the purpose of this PUT request updates the existing data or if there is not data then its creates a new one  so if we make the changes below then click on the send button then it will be updated in the response with status code 200 e.g 
-Request : 
-{
-    "firstname": "Hassan",
-    "lastname": "Saqib",
-    "totalprice": 164,
-    "depositpaid": false,
-    "bookingdates": {
-        "checkin": "2022-12-12",
-        "checkout": "2022-12-18"
-    },
-    "additionalneeds": "late checkout"
-} 
+7)	Update booking request – the purpose of this PUT request is to update the existing data or if there is not data then its creates a new one so for this we can again use the same booking id created in the above step with below configurations 
+In the 'Id' parametere add the value bookingid 
+Make the changes in the request and click on the send button then it will be updated in the response with status code 200, see the screenshot below
+
+![put parametere](https://user-images.githubusercontent.com/111247381/184613082-b67d68df-f605-4550-9f4f-ebcc6f2fa26e.png)
 
 
-8)	Partial Update booking request – the purpose of  this PATCH request rather then updating the full request body it updates the partial body which needs to be updated so for this example we can change firstname  to “Pod” and lastname to “point” and now if you click send then in the response you would see fields changed with status code 200 
+
+![update booking](https://user-images.githubusercontent.com/111247381/184612134-c4a8d062-19ec-4ce5-b9a9-7fcec79adb63.png)
+
+
+
+8)	Partial Update booking request – the purpose of this PATCH request is to rather then updating the full request body it updates the partial body which needs to be updated so for this example we can change firstname  to “Pod” ,lastname to “point” and totalprice to 165 then if you click send then in the response you would see fields changed with status code 200 
+
+
+![patch](https://user-images.githubusercontent.com/111247381/184613511-d01da408-5851-4b9b-ad05-3e1606544bb3.png)
+
+
+
+
 
 9)	Delete request – the purpose of this request is to delete any resource in the server so for this if we use the above booking id which we already created if we add that in the ‘ id’ parameter  and click on send this will delete it with the response ‘Created’ with status code 201
 
