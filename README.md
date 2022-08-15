@@ -38,7 +38,7 @@ This API is all about Booking  and the purpose of this collection is to trigger 
 
 Pre-requisite : 
 
-Please make sure to download all the files by following below steps : 
+Please make sure to download all the files by following the below steps : 
 
 1) in the https://github.com/Hassansaqib0/PodPointRestfulBooker page 
 click on code then click on download zip, this will download all the files in this repository
