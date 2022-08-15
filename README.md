@@ -56,7 +56,7 @@ Please follow the below steps to import and setup the postman collection configu
 
 
 
-Once you have successfully imported the collection then please follow the below steps on how to use and trigger the Restful booker collection requests and please follow the below sequence for triggering requests
+Once you have successfully imported the collection then please follow the below steps on how to use and trigger the Restful booker collection requests and please follow the below **sequence** for triggering requests
 1)	In the postman application once you click on the Restful-booker file then it will open the drop down with all the requests already configured  as shown in the screenshot 
 
 ![33](https://user-images.githubusercontent.com/111247381/184609220-8ce620a7-b779-4ea8-b629-72fc008f87f0.png)
@@ -81,7 +81,7 @@ Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ a
 
 
 5)	Create Booking – the purpose of this Post request is to create new bookings.
-as the request body has already been configured once this request is send then in response we get the new booking id with status code 200  
+as the request body has already been configured once this request is send then in response we get the new booking id with the rest of the body with status code 200  
 
 6)	Get booking request – the purpose of this request is to return any booking information
 we can use any booking id in the parameter 'id' from the request get booking id but because of the changes i have done the booking id will be automatically be updated which was created in the above step so clicking on the send button it will return the booking which we have already created with status code 200 
@@ -109,7 +109,21 @@ we can use any booking id in the parameter 'id' from the request get booking id 
 
 
 
+Troubleshooting : 
 
+1) If the below requests do not work or give out 404 error then please before triggering these requests frist trigger the 'create booking' request as that will get the booking id and pass to the other requests where needed
+
+Get booking 
+Update booking
+Partical update 
+Delete booking
+
+2) For the below requests in the header section a token is auotmatically updated incase if the requests gives error please trigger the 'create auth token' requet which update the variable in for these requests, alternatively we can also use authorization header by clicking on the check box in the header setion and unchecking the cookie header
+
+Update booking
+Partical update 
+Delete booking
+ 
 
 
 
