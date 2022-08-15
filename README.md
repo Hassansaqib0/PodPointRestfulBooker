@@ -41,6 +41,9 @@ In the  https://github.com/Hassansaqib0/PodPointRestfulBooker page
 open the file Resful-Booker.json 
 copy all of the json 
 
+![assadsadasds](https://user-images.githubusercontent.com/111247381/184633241-3ba694fd-8e21-4593-9c1c-7a5d03abdd7f.png)
+
+
 then Please follow the below steps to import and setup the postman collection configured for Restful booker : 
 1)	On your system please open postman application
 2)	Once the Postman application is opened look for import button which should be at the top left  corner of the app
