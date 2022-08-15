@@ -21,6 +21,8 @@ Note:
 2) In the Variables tab I have also created a variable ‘BookingUrl’ which will replace the Url in all requests. 
 3) For all the requests all the headers , parameters and request body has already been configured for your convenience. 
 
+
+
 Setup 
 
 Please follow the below steps to import and setup the postman collection configured for Restful booker : 
@@ -39,6 +41,8 @@ Please follow the below steps to import and setup the postman collection configu
 8)	Once you click ‘Open’ then in the Postman application you will see the file you have selected and on the bottom of the pop up you will see the option ‘Import’, please click the ‘import’ button
 9)	Once you click on the ‘import’ button then you will see a message on the postman application stating ‘Postman collection import has been successful’
 10)	In the postman application on the left hand side you would now see the imported file ‘Restful-booker’ file, incase if you don’t see the file then please click on the options ‘Collections’ which is on the top left hand side of the application .
+
+
 
 
 Once you have successfully imported the collection then please follow the below steps on how to use and trigger the Restful booker collection requests
