@@ -18,8 +18,14 @@ This API is all about Booking  and the purpose of this collection is to trigger 
 **Note**:
  For the Restful-Booker collection in the collection settings in the tabs  ‘Pre-request script’ and ‘variable’ tab I have made some changes as below : 
 1) In the Pre-request script I have written a Java script which will get the token from the response of the request ‘Create Auth token’  and pass it to the variable created in ‘Variables’ tab ‘NewToken’ and ‘req’, by this in the applicable requests like (Update, Partial and Delete) you will not need to update token because it will be updated automatically.
-2) In the Variables tab I have also created a variable ‘BookingUrl’ which will replace the Url in all requests. 
-3) For all the requests all the headers , parameters and request body has already been configured for your convenience. 
+2) For the Create booking request I have added a Java script in the 'Test' tab which will get the 'bookingid' from the response and  with this i  have also created a new variable called 'BookingId' in the colletion settings 'variables' tab, by this for the requests Get booking, update booking , Partial booking and Delete booking you would not need to enter the bookingid in the parameter as the 'id' parameter will be updated automatically
+
+![bookiing id](https://user-images.githubusercontent.com/111247381/184616321-3ef25aa8-dbc5-4726-a00e-40834dc1ee50.png)
+
+
+
+4) In the Variables tab I have also created a variable ‘BookingUrl’ which will replace the Url in all requests. 
+5) For all the requests all the headers , parameters and request body has already been configured for your convenience. 
 
 
 
@@ -57,7 +63,7 @@ Once you have successfully imported the collection then please follow the below 
 Click on the ‘Send’ button for the Post request ‘Create auth token’ and in the response you will get the token with status code 200 
 
 4)	Getting booking id’s – The purpose of this GET request is to to bring returns all the booking ids which already have been created. 
-Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ and in the response this will return all the book id’s which already has been created, here we can go to parameters tab and also select different parameters which will bring different such results based on the parameters  e.g. 
+Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ and in the response this will return all the book id’s which already has been created, here we can go to parametes tab and also select different parameters which will bring different such results based on the parameters  e.g. 
 
 {{BookingUrl}}/booking?firstname=Sally
 
@@ -73,10 +79,10 @@ Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ a
 as the request body has already been configured once this request is send then in response we get the new booking id with status code 200  
 
 6)	Get booking request – the purpose of this request is to return any booking information so by clicking on the send button 
-we can use the above booking id in the parametere 'id' , which will return  the booking which we have already created with status code 200 
+we can use the above booking id in the parameter 'id' , which will return  the booking which we have already created with status code 200 
 
 7)	Update booking request – the purpose of this PUT request is to update the existing data or if there is not data then its creates a new one so for this we can again use the same booking id created in the above step with below configurations 
-In the 'Id' parametere add the value bookingid 
+In the 'Id' parameter add the value bookingid 
 Make the changes in the request and click on the send button then it will be updated in the response with status code 200, see the screenshot below
 
 ![put parametere](https://user-images.githubusercontent.com/111247381/184613082-b67d68df-f605-4550-9f4f-ebcc6f2fa26e.png)
