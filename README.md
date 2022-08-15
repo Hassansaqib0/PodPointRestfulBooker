@@ -59,8 +59,11 @@ Click on the ‘Send’ button for the Post request ‘Create auth token’ and 
 4)	Getting booking id’s – The purpose of this is  GET request is to bring returns all the booking ids which already have been created. 
 Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ and in the response this will return all the book id’s which already has been created, here we can go to parameters tab and also select different parameters which will bring different such results based on the parameters  e.g. 
 {{BookingUrl}}/booking?firstname=Sally
+
 {{BookingUrl}}/booking?firstname=Sally&lastname=Brown
+
 {{BookingUrl}}/booking?firstname=Sally&lastname=Brown&checkout=2014-10-23
+
 {{BookingUrl}}/booking?checkout=2014-10-23
 
 5)	Create Booking – the purpose of this is a Post request which can create new bookings.
