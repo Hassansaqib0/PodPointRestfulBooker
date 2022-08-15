@@ -1,5 +1,6 @@
 Introduction
-This API is all about Booking  and the purpose of this collection is to trigger requests which will :
+This API is all about Booking  and the purpose of this collection is to trigger requests which will:
+
 1)Check health check 
 
 2)Create authentication
