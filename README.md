@@ -42,9 +42,23 @@ Please make sure to download all the files by following the below steps :
 
 1) in the https://github.com/Hassansaqib0/PodPointRestfulBooker page 
 click on code then click on download zip, this will download all the files in this repository
+Once downwloaded you would need to extract the file uing winzip or any other application then
 drag this folder to desktop so we can import the Restful-booker.json collection later in the steps
 
 ![donwload zip](https://user-images.githubusercontent.com/111247381/184623010-eae96349-f553-448f-91ce-b4c3a89d5e04.png)
+
+if you are not able to extract the folder then please try below steps : 
+
+in the https://github.com/Hassansaqib0/PodPointRestfulBooker page 
+
+open Restful-booker.json file then copy the all of the json 
+
+open note pad pr notepad ++ 
+
+copy the json inside that and save it with the name extenion Restful-booker.json on your desktop 
+
+
+
 
 
 
