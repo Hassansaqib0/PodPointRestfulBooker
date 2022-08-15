@@ -18,6 +18,11 @@ This API is all about Booking  and the purpose of this collection is to trigger 
 **Note**:
  For the Restful-Booker collection in the collection settings in the tabs  ‘Pre-request script’ and ‘variable’ tab I have made some changes as below : 
 1) In the Pre-request script I have written a Java script which will get the token from the response of the request ‘Create Auth token’  and pass it to the variable created in ‘Variables’ tab ‘NewToken’ and ‘req’, by this in the applicable requests like (Update, Partial and Delete) you will not need to update token because it will be updated automatically.
+
+![2022-08-15 11_19_29-](https://user-images.githubusercontent.com/111247381/184618755-8b34ffc3-baab-4b13-a17d-ad94f064156e.png)
+
+
+
 2) For the Create booking request I have added a Java script in the 'Test' tab which will get the 'bookingid' from the response and  with this i  have also created a new variable called 'BookingId' in the colletion settings 'variables' tab, by this for the requests Get booking, update booking , Partial booking and Delete booking you would not need to enter the bookingid in the parameter as the 'id' parameter will be updated automatically
 
 ![bookiing id](https://user-images.githubusercontent.com/111247381/184616321-3ef25aa8-dbc5-4726-a00e-40834dc1ee50.png)
@@ -51,7 +56,7 @@ Please follow the below steps to import and setup the postman collection configu
 
 
 
-Once you have successfully imported the collection then please follow the below steps on how to use and trigger the Restful booker collection requests
+Once you have successfully imported the collection then please follow the below steps on how to use and trigger the Restful booker collection requests and please follow the below sequence for triggering requests
 1)	In the postman application once you click on the Restful-booker file then it will open the drop down with all the requests already configured  as shown in the screenshot 
 
 ![33](https://user-images.githubusercontent.com/111247381/184609220-8ce620a7-b779-4ea8-b629-72fc008f87f0.png)
@@ -78,12 +83,10 @@ Click on the ‘Send’ button on the GET request ‘Getting booking id’s’ a
 5)	Create Booking – the purpose of this Post request is to create new bookings.
 as the request body has already been configured once this request is send then in response we get the new booking id with status code 200  
 
-6)	Get booking request – the purpose of this request is to return any booking information so by clicking on the send button 
-we can use the above booking id in the parameter 'id' , which will return  the booking which we have already created with status code 200 
+6)	Get booking request – the purpose of this request is to return any booking information
+we can use any booking id in the parameter 'id' from the request get booking id but because of the changes i have done the booking id will be automatically be updated which was created in the above step so clicking on the send button it will return the booking which we have already created with status code 200 
 
-7)	Update booking request – the purpose of this PUT request is to update the existing data or if there is not data then its creates a new one so for this we can again use the same booking id created in the above step with below configurations 
-In the 'Id' parameter add the value bookingid 
-Make the changes in the request and click on the send button then it will be updated in the response with status code 200, see the screenshot below
+7)	Update booking request – the purpose of this PUT request is to update the existing data or if there is not data then its creates a new one so for this we can again use any booking id but in the parameter the value of the id would have been automatically updated so we just need to update the request as below and in the response we will get status code 200, see the screenshot below
 
 ![put parametere](https://user-images.githubusercontent.com/111247381/184613082-b67d68df-f605-4550-9f4f-ebcc6f2fa26e.png)
 
@@ -93,7 +96,7 @@ Make the changes in the request and click on the send button then it will be upd
 
 
 
-8)	Partial Update booking request – the purpose of this PATCH request is to rather then updating the full request body it updates the partial body which needs to be updated so for this example we can change firstname  to “Pod” ,lastname to “point” and totalprice to 165 then if you click send then in the response you would see fields changed with status code 200 
+8)	Partial Update booking request – the purpose of this PATCH request is to rather then updating the full request body it updates the partial body which needs to be updated so for this example we can change firstname  to “Pod” ,lastname to “point” and totalprice to 165 then if you click send then in the response you would see fields changed with status code 200 , the value of 'id' in the parameter section will be updated automatically
 
 
 ![patch](https://user-images.githubusercontent.com/111247381/184613511-d01da408-5851-4b9b-ad05-3e1606544bb3.png)
@@ -102,7 +105,7 @@ Make the changes in the request and click on the send button then it will be upd
 
 
 
-9)	Delete request – the purpose of this request is to delete any resource in the server so for this if we use the above booking id which we already created if we add that in the ‘ id’ parameter  and click on send this will delete it with the response ‘Created’ with status code 201
+9)	Delete request – the purpose of this request is to delete any resource in the server so for this the value of id will be updatd automatically or you can add any id yourself by clicking on send this will delete it with the response ‘Created’ with status code 201
 
 
 
