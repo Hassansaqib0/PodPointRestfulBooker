@@ -36,7 +36,16 @@ This API is all about Booking  and the purpose of this collection is to trigger 
 
 **Setup**
 
-Please follow the below steps to import and setup the postman collection configured for Restful booker : 
+Pre-requisite : 
+
+Please make sure to download all the files by following below steps : 
+
+1) in the https://github.com/Hassansaqib0/PodPointRestfulBooker page 
+click on code then click on download zip, this will download all the files in this repository
+drag this folder to desktop so we can import the Restful-booker.json collection later in the steps
+
+
+Now please follow the below steps to import and setup the postman collection configured for Restful booker : 
 1)	On your system please open postman application
 2)	Once the Postman application is opened look for import button which should be at the top left  corner of the app
 ![1111](https://user-images.githubusercontent.com/111247381/184608371-5b9fd32a-b768-4347-81da-7516f833e6d3.png)
