@@ -61,6 +61,11 @@ then Please follow the below steps to import and setup the postman collection co
 
 
 
+
+
+
+
+
 Once you have successfully imported the collection then please follow the below steps on how to use and trigger the Restful booker collection requests and please follow the below **sequence** for triggering requests
 
 
