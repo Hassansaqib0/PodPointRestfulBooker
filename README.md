@@ -1,11 +1,11 @@
 Introduction
 This API is all about Booking  and the purpose of this collection is to trigger requests which will :
-•	Check health check 
-•	Create authentication 
-•	Get booking id’s 
-•	Create bookings
-•	Update booking fully or partially 
-•	Delete booking   
+1)	Check health check 
+2)Create authentication 
+3)	Get booking id’s 
+4)Create bookings
+5)	Update booking fully or partially 
+6)	Delete booking   
 
 
 Note:
