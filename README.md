@@ -53,9 +53,10 @@ in the https://github.com/Hassansaqib0/PodPointRestfulBooker page
 
 open Restful-booker.json file then copy the all of the json 
 
-open note pad
+Open postman application and click on import 
+chose the option raw text and copy the json in there and click on continue 
+After clicking contine click on import then postman collectionn would be successfully imported
 
-copy the json inside that and save it with the name extenion Restful-booker.json on your desktop 
 
 
 
