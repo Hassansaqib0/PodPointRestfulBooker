@@ -44,6 +44,9 @@ Please make sure to download all the files by following the below steps :
 click on code then click on download zip, this will download all the files in this repository
 drag this folder to desktop so we can import the Restful-booker.json collection later in the steps
 
+![donwload zip](https://user-images.githubusercontent.com/111247381/184623010-eae96349-f553-448f-91ce-b4c3a89d5e04.png)
+
+
 
 Now please follow the below steps to import and setup the postman collection configured for Restful booker : 
 1)	On your system please open postman application
