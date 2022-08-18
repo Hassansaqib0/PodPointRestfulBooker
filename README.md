@@ -121,7 +121,8 @@ we can use any booking id in the parameter 'id' from the request get booking id 
 
 7)	Update booking request – the purpose of this PUT request is to update the existing data or if there is not data then its creates a new one so for this we can again use any booking id but in the parameter the value of the id would have been automatically updated so we just need to update the request as below and in the response we will get status code 200, see the screenshot below
 
-![put parametere](https://user-images.githubusercontent.com/111247381/184613082-b67d68df-f605-4550-9f4f-ebcc6f2fa26e.png)
+![postman update](https://user-images.githubusercontent.com/111247381/185416463-371b7840-ef8b-47fb-b662-8396dab9d311.png)
+
 
 
 
